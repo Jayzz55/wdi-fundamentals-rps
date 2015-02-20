@@ -75,10 +75,6 @@ function getWinner(playerMove,computerMove) {
     return winner;
 }
 
-function playToFive() {
-    playTo(5);
-}
-
 function playTo(x) {
     console.log("Let's play Rock, Paper, Scissors");
     var playerWins = 0;
@@ -106,3 +102,6 @@ function playTo(x) {
     return [playerWins, computerWins];
 }
 
+function playToFive() {
+    playTo(5);
+}
